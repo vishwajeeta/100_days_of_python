@@ -10,3 +10,8 @@ print(type(filt))
 #converting filter datatype to list
 filt=list(filt)
 print(filt)
+
+
+#let's do the same thing using lambda function
+filt=filter(lambda x:x>=5,lis)
+print(list(filt))
