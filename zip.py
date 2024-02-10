@@ -2,5 +2,5 @@
 a=("vishwa","golu","aman","ajay")
 b=("hii","hello","go to hell","ankit","nihal")
 c=("hii","hello","go to hell","ankit","nihal")
-d=zip(a,b,c)
 print(tuple(d))
+d=zip(a,b,c)
